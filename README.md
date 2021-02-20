@@ -1,5 +1,5 @@
 # researchbuddy
-Chrome extension for internet research
+Browser extension for internet research
 
 The intent of this extension is to provide a toolkit that allows one to automate a few different research techniques when conducting research on the open internet. 
 
