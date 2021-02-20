@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link type="text/css" rel = "stylesheet" href = popup.css>
+</head>
+
+<body>
+<div>
+	<fieldset>
+	<legend>Search terms</legend>
+	<input id = "terms">
+	<input type = "execute" id = "search" value = "Search">
+	</fieldset>
+</div>
+<div class = "poker">
+	<fieldset>
+	<legend>Google Search Options</legend>
+	<table>
+		<tr>
+		<label for = "timevar">Time Options: </label>
+			<input type = "radio" id = "no_time" name = "timevar" checked = "checked">
+				<label for = "no_time">No Time Limit</label></input>
+			<input type = "radio" id = "one_week" name = "timevar">One Week</input>
+			<input type = "radio" id = "one_month" name = "timevar">One Month</input>
+			<input type = "radio" id = "six_months" name = "timevar">Six Months</input>
+			<input type = "radio" id = "one_year" name = "timevar">One Year</input>	
+		</tr>
+	</fieldset>
+</div>
+</body>
+</html>
+
