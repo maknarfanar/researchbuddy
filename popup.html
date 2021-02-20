@@ -13,19 +13,45 @@
 	<input type = "execute" id = "search" value = "Search">
 	</fieldset>
 </div>
-<div class = "poker">
+<div class = "poker_table">
 	<fieldset>
 	<legend>Google Search Options</legend>
 	<table>
 		<tr>
-		<label for = "timevar">Time Options: </label>
+		<section id="radiosection">
+		<fieldset class = "time_options_fieldset">
+		<legend class = "time_options_legend">Time Options: </legend>
+		  <span class = "radio_container">
 			<input type = "radio" id = "no_time" name = "timevar" checked = "checked">
-				<label for = "no_time">No Time Limit</label></input>
-			<input type = "radio" id = "one_week" name = "timevar">One Week</input>
-			<input type = "radio" id = "one_month" name = "timevar">One Month</input>
-			<input type = "radio" id = "six_months" name = "timevar">Six Months</input>
-			<input type = "radio" id = "one_year" name = "timevar">One Year</input>	
+				<label for = "any_time" class = "radio_label">Any Time
+				</label></input>
+			<input type = "radio" id = "one_hour" name = "timevar">
+				<label for = "one_hour" class = "radio_label">One Hour
+				</label></input>
+			<input type = "radio" id = "one_day" name = "timevar">
+				<label for = "one_day" class = "radio_label">One Day
+				</label></input>
+			<input type = "radio" id = "one_week" name = "timevar">
+				<label for = "one_week" class = "radio_label">One Week
+				</label></input>
+	<br />
+			<input type = "radio" id = "one_month" name = "timevar">
+				<label for = "one_month" class = "radio_label">One Month
+				</label></input>
+			<input type = "radio" id = "six_months" name = "timevar">
+				<label for = "six_months" class = "radio_label">Six Months
+				</label></input>
+			<input type = "radio" id = "one_year" name = "timevar">
+				<label for = "one_year" class = "radio_label">One Year
+				</label></input>
+			<input type = "radio" id = "three_years" name = "timevar">
+				<label for = "three_years" class = "radio_label">Three Years
+				</label></input>
+		  </span>
+		  </fieldset>
+		  </section>
 		</tr>
+	</table>
 	</fieldset>
 </div>
 </body>
